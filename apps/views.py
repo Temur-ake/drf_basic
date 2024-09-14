@@ -3,8 +3,8 @@ from random import randint
 from django.core.cache import cache
 from django.core.mail import send_mail
 from django.db.models import Count
-from django_elasticsearch_dsl_drf.filter_backends import SearchFilterBackend
-from django_elasticsearch_dsl_drf.viewsets import DocumentViewSet
+#from django_elasticsearch_dsl_drf.filter_backends import SearchFilterBackend
+#from django_elasticsearch_dsl_drf.viewsets import DocumentViewSet
 from drf_spectacular.utils import extend_schema
 from rest_framework import status
 from rest_framework.generics import (CreateAPIView, GenericAPIView,
