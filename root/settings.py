@@ -115,7 +115,7 @@ AUTHENTICATION_BACKENDS = [
 
 AUTH_USER_MODEL = 'apps.User'
 SPECTACULAR_SETTINGS = {
-    'TITLE': 'Temurs Project API',
+    'TITLE': 'Temurs Project API7',
     'DESCRIPTION': 'Temurs Project description',
     'VERSION': '1.0.0',
     'SERVE_INCLUDE_SCHEMA': False,
