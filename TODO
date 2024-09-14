@@ -1,0 +1,55 @@
+jetbrains
+pycharm
+python
+virtualenv
+venv
+
+
+docker logs -f container id
+
+django signals (post_save,pre_save) database ga malumot saqlashdan oldin yoki keyin
+celery kuchliroq django signals chunki unda mesaage broker bor (rabbitmq,redis,kafka)
+
+
+
+trigger ======  signals
+
+code coverage (codni necha foiziga test yozilganini korsatadi sifat uchun kerak)
+
+
+
+
+
+07.09.2024
+
+elasticsearch katta va kop malumotlarga tez ishlaydi
+
+graphql da har doim post methodi ketadi (bitta query yoziladi hamma modelga)
+
+mutatsiya (post,delete,put,putch) ozgartirish
+
+get qilish esa oddiy query
+
+
+crash test
+
+stress test
+
+server + project
+
+
+graphene django ni oqish
+
+uvicorn ->
+
+
+uwsgi ->
+
+daphne -> project asyncron yozilgan bolsa
+
+
+
+djagno debug toolbar ni oqib chiqish
+
+
+

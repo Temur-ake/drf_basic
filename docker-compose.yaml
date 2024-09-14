@@ -1,0 +1,32 @@
+services:
+  backend_services:
+    build: .
+    #    image: megamall2007/temurs_project
+    env_file:
+      - .env
+    ports:
+      - '8000:8000'
+    depends_on:
+      - postgres_service
+
+  postgres_service:
+    image: postgres:alpine
+    env_file:
+      - .env
+    environment:
+      - POSTGRES_PASSWORD=${PG_PASSWORD}
+    ports:
+      - '5440:5432'
+    volumes:
+      - drf_basic_pg_data:/var/lib/postgres/data
+  redis_service:
+    image: redis:alpine
+    #    ports:
+    #      - 6380:6379
+    volumes:
+      - redis_data_p22:/data
+
+
+volumes:
+  drf_basic_pg_data:
+  redis_data_p22:
